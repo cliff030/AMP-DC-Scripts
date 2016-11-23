@@ -16,7 +16,7 @@ $streamIDs = $null
 $Databases = ( "CSDATA9_INC", "CSDATA9_FFN" )
 $Reports = ("ConvertedLeadsByDateRange", "NewLeadsByDateRange")
 
-# Figure out the closest previous Monday to today
+# Figure out the closest previous Monday to today's date
 function GetStartDate {
     $StartDate = ( Get-Date )
        
