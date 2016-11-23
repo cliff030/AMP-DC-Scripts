@@ -1,0 +1,3 @@
+[submodule "Resources"]
+	path = Resources
+	url = https://github.com/chris-brundage/AMP-Scripts-Includes.git
