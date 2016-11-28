@@ -1,15 +1,4 @@
-﻿. "c:\scripts\Resources\LoadSqlPs.ps1"
-
-try
-{
-    Import-Module -DisableNameChecking SqlPs
-}
-catch [exception]
-{
-    LoadSqlPs
-}
-
-. "c:\scripts\Resources\DatabaseConfig 2.0.ps1"
+﻿. "c:\scripts\Resources\DatabaseConfig 2.0.ps1"
 
 function GetLastSaturday
 {
